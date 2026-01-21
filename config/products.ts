@@ -1,0 +1,39 @@
+import { DropConfig } from '../services/pricingEngine';
+
+export const products: Record<string, DropConfig> = {
+  "iphone17": {
+    "productId": "iphone17",
+    "name": "iPhone 17 256GB SIM",
+    "basePrice": 1100,
+    "viewingFee": 5,
+    "priceDropShare": 0.80,
+    "platformShare": 0.20,
+    "supplierShareOfPlatform": 0.25,
+    "qomoShareOfPlatform": 0.75,
+    "minPrice": 1
+  },
+  "ps5slim": {
+    "productId": "ps5slim",
+    "name": "PlayStation 5 Slim 1TB",
+    "basePrice": 485,
+    "viewingFee": 5,
+    "priceDropShare": 0.80,
+    "platformShare": 0.20,
+    "supplierShareOfPlatform": 0.25,
+    "qomoShareOfPlatform": 0.75,
+    "minPrice": 1
+  },
+  "macbookairm4": {
+    "productId": "macbookairm4",
+    "name": "MacBook Air M4",
+    "basePrice": 900,
+    "viewingFee": 5,
+    "priceDropShare": 0.80,
+    "platformShare": 0.20,
+    "supplierShareOfPlatform": 0.25,
+    "qomoShareOfPlatform": 0.75,
+    "minPrice": 1
+  }
+};
+
+export default products;
